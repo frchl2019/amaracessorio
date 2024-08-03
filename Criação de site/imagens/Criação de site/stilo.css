@@ -1,0 +1,56 @@
+body{
+    background-color: bisque;
+    font: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex; /* Certifique-se de usar o display flex */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    background-color: pink;
+    padding: 10px;
+}
+
+.menu-item {
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+.menu-item a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    display: block; /* Faz com que os links ocupem toda a área da div */
+}
+
+.menu-item a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.imagensPresilha{
+    width: 30%;
+    display: inline-block;
+  }
+
+
+footer.rodape {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    background-color: pink;
+    align-items: center; /* Centraliza verticalmente */
+    padding: 20px;
+    margin-top: auto; /* Empurra o rodapé para o fim da página */
+}
+
+.rodape-item {
+    margin: 0 1px; /* Espaçamento entre os itens */
+}
+
+
+.rodape-imagem {
+    width: 25px; /* Defina o tamanho desejado da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
